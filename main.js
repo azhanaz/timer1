@@ -15,7 +15,7 @@ const COLOR_CODES = {
         threshold: ALERT_THRESHOLD
     }
 };
-let min = 60;
+let min = 60.0;
 const TIME_LIMIT = 1 * min;
 let timePassed = 0;
 let timeLeft = TIME_LIMIT;
