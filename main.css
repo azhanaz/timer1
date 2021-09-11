@@ -34,7 +34,7 @@ body {
     width: 50vh;
     height: 50vh;
     top: 00px;
-    left: 150px;
+    left: 600px;
     background: linear-gradient(#304d63, #b2e7e8);
     /* background: linear-gradient(#33ccff,#ff0066);*/
     border-radius: 50%;
@@ -94,6 +94,8 @@ body {
     align-items: center;
 }
 
+
+/*
 .loading {
     display: flex;
     flex-direction: row;
@@ -171,6 +173,7 @@ body {
         font-size: 40px;
     }
 }
+*/
 
 body {
     font-family: sans-serif;
@@ -181,9 +184,9 @@ body {
 
 .base-timer {
     position: relative;
-    width: 320px;
-    right: 198px;
-    height: 320px;
+    width: 47vh;
+    right: 244px;
+    height: 47vh;
 }
 
 .base-timer__svg {
@@ -227,9 +230,10 @@ body {
     position: absolute;
     width: 300px;
     height: 300px;
-    top: 00;
+    top: 250px;
+    left: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 48px;
+    font-size: 100px;
 }
